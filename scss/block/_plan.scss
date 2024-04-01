@@ -1,0 +1,132 @@
+.plan{
+    padding: 25px 128px 210px 127px;
+}
+.plan_title{
+    font-weight: 800;
+font-size: 43px;
+line-height: 126%;
+text-align: center;
+color: #f9f9f9;
+padding-bottom: 8px;
+}
+.plan_text{
+    font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0.01em;
+text-align: center;
+color: #c0c0c0;
+padding-bottom: 26px;
+}
+.plan_link_block{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    gap: 16px;
+    align-items: center;
+    border: 5px solid #2b2d37;
+border-radius: 21px;
+
+width: 235px;
+height: 48px;
+background: #2b2d37;
+}
+.plan_btn{
+    font-weight: 400;
+font-size: 16px;
+line-height: 187%;
+text-align: center;
+color: #f9f9f9;
+}
+.plan_link{
+    margin-right: 15px;
+    border-radius: 19px;
+padding: 4px 11px;
+background: #0063e5;
+font-weight: 400;
+font-size: 16px;
+line-height: 187%;
+text-align: center;
+color: #f9f9f9;
+}
+.plan_list{
+    gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 350px));
+    grid-auto-rows: 525px;
+    padding-top: 20px;
+    margin-left: 128px;
+    margin-right: 128px;
+}
+.plan_item{
+    padding: 41px 45px;
+    border: 1px solid #c0c0c0;
+width: 380px;
+height: 523px;
+}
+.plan_sub-title{
+    content: "";
+    width: 174px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-image: url('../img/plan-item.svg');
+    display: inline-block;
+    padding-top: 67px;
+}
+.plan_sub-title{
+    font-weight: 800;
+font-size: 27px;
+line-height: 141%;
+color: #f9f9f9;
+padding-bottom: 16px;
+
+}
+.plan_span{
+    font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+}
+.plan_sub_text_block{
+padding-top: 16px;
+}
+.plan_sub_text_block::before{
+    content: "";
+    width: 16px;
+    height: 13px;
+    background-repeat: no-repeat;
+    background-image: url('../img/plan-item-text.svg');
+    display: block;
+}
+.plan_sub-text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+letter-spacing: 0.01em;
+color: #c0c0c0;
+padding-bottom: 114px;
+
+}
+.plan_price{
+    font-weight: 800;
+font-size: 28px;
+line-height: 136%;
+color: #f9f9f9;
+padding-bottom: 16px;
+}
+.plan_price-span{
+    font-weight: 400;
+font-size: 16px;
+color: #c0c0c0;
+}
+.plan_item-btn{
+    font-weight: 500;
+font-size: 18px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+text-align: center;
+color: #f9f9f9;
+border-radius: 4px;
+width: 290px;
+height: 60px;
+background: #0063e5;
+}

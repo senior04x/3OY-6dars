@@ -5,7 +5,9 @@ html{
   box-sizing: inherit;
 }
 body{
+  font-family: "Inter", sans-serif;
   margin: 0;
+  background-color: #040714;
 }
 ul,ol{
   margin: 0;
@@ -15,6 +17,7 @@ ul,ol{
 a{
   text-decoration: none;
   display: inline-block;
+  
 }
 img{
   max-width: 100%;
@@ -24,7 +27,7 @@ h1,h2,h3,h4,p{
   margin: 0;
 }
 .container{
-  max-width: 100%;
+  max-width: 1440px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;

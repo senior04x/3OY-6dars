@@ -1,0 +1,38 @@
+.trend{
+    padding: 80px;
+    text-align: center;
+}
+.trend_tab_list-block{
+    
+}
+.trend_tab_list{
+    display: flex;
+    gap: 28px;
+    padding-bottom: 24px;
+    margin-left: 478px;
+    margin-right: 478px;
+}
+.trend_tab_item{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.trend_tab_link{
+    font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color: #f9f9f9;
+margin-bottom: 12px;
+}
+.trend_tab_item-1{
+    border-bottom: 5px solid #f9f9f9;
+    
+}
+.trend_list{
+    gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+    grid-auto-rows: 245px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
